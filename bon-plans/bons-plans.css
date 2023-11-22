@@ -1,0 +1,1643 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-size: 16px;
+
+
+}
+
+/*Pour faire disparaitre une div une faudra que la DIV prenne le Hidden*/
+/* Mettre jusute une div avec l'ID "myDiv"*/
+/*
+
+.hidden {
+    display: none;
+}
+
+#myDiv{
+
+color: red;
+
+}
+
+*/
+
+/* PARAMETRE GENERAUX*/
+
+#espace-top {
+    margin-top: 81px;
+
+}
+
+
+
+
+h1 {
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    /* color: #10004e; */
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    display: flex;
+    /* color: #10004e; */
+    color: #5600ff;
+    justify-content: center;
+    margin: 30px 0;
+
+}
+
+p {
+
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+h3 {
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    /* color: #10004e; */
+    color: #5600ff;
+
+}
+
+.sous-titre {
+
+    color: #006efd;
+    margin-top: 30px;
+}
+
+.pub {
+
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 60, 255, 0.123);
+
+    margin: auto;
+    margin-top: 37px;
+}
+
+.pub-bottom-top {
+
+    /* margin-top: 100px; */
+
+}
+
+.pub-intern-article {
+
+    margin: 40px 0;
+
+}
+
+.pub-column-right {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 60, 255, 0.123);
+
+}
+
+.pub-indispo {
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------*/
+
+
+/*FIL D'ARIANNE */
+
+.filAriane {
+
+    padding-bottom: 15px;
+
+
+
+}
+
+.filAriane a {
+
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+
+}
+
+.filAriane a:hover {
+
+    color: rgb(123, 0, 161);
+
+}
+
+.name {
+
+    color: rgb(37, 37, 37);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+
+
+}
+
+
+
+.brAriane {
+    display: none;
+
+}
+
+
+.accueil-blocked{
+
+    pointer-events: none;
+
+
+}
+
+
+/*-------------------------------------------------------*/
+
+
+
+
+/* CORPS PAGE DEBUT ---*/
+
+
+.container {
+
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.titre {
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.display-corp-avis {
+
+    display: flex;
+
+
+}
+
+.column-gauche {
+    /* width: 800px; */
+width: 857px;
+
+}
+
+.column-droite {
+    /* width: 340px; */
+width: 335px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-droite h3 {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+.carre-droite {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 8px 0 #dfdfdf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+
+
+.titre-rectangle-droite {
+
+    margin: 10px 0 15px 10px;
+
+}
+
+.img-rectangle-droite {
+
+    background-color: rgb(243 243 243);
+
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    width: 100px;
+}
+
+.image-top-plans {
+    border-radius: 10px 0 0 10px;
+  
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+
+}
+
+.contain{
+object-fit: contain;
+
+}
+
+
+.display-rectangle-droite {
+
+
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    flex-wrap: wrap;
+    padding: 5px 0 5px 5px;
+    flex-direction: column;
+}
+
+
+
+
+.display-rectangle-droite article {
+
+    /* background-color: rgba(245, 245, 245, 0.767); */
+    /* width: 364px;
+    height: 88px; */
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    margin: 5px 5px 20px 5px;
+
+}
+
+.display-rectangle-droite a:hover {
+
+    opacity: 1;
+    background-color: rgb(203, 225, 255);
+
+}
+
+
+.display-art-rectangle-droite {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    height: 100px;
+
+}
+
+.text-prix-rectangle-droite p {
+
+    margin-top: 3px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.titre-offre-rectangle-droite {
+
+    margin-left: 10px;
+
+
+}
+
+.prix-rectangle-droite {
+
+    float: right;
+    margin-right: 15px;
+    color: red;
+}
+
+
+
+/*Nav de l'Univers Bon Plan*/
+
+
+.nav-deal{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.logounivers {
+
+    height: 40px;
+    /* margin-left: 20rem; */
+    margin-right: 50px;
+}
+
+.boutons-nav-univers {
+margin-right: 10px;
+
+
+}
+
+.boutons-nav-univers a{
+
+    text-decoration: none;
+color: rgb(46, 46, 46);
+padding: 0 7px;
+font-family: 'montserrat', sans-serif;
+font-weight: 600;
+
+}
+
+.boutons-nav-univers a:hover{
+
+color: blue;
+
+}
+
+
+
+.display-nav-deal{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+
+
+
+    /*MENU DEROULANT NAV Univers */
+
+
+    .dropdown button {
+
+        border: 1px solid grey;
+        background-color: white;
+    padding: 3px;
+    }
+    
+    
+    
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    
+    .dropdown .dropbtn {
+        /* border: none;
+        outline: none; */
+        color: #333;
+            background-color: inherit;
+        margin: 0;
+    
+    
+    }
+/*     
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+        color: #a200ff;
+    }
+     */
+    @keyframes showNav {
+        0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+    }
+    
+    
+      
+      /* Style du menu déroulant */
+      .dropdown-content-nav-univers {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 999;
+}
+      
+      
+      /* Supprimez le style de survol pour les liens dans le menu déroulant */
+      .dropdown-content-nav-univers a {
+        color: #333;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+      }
+      
+      /* Affichez le menu déroulant au clic sur le bouton (avec :focus) */
+      .dropdown button:focus + .dropdown-content-nav-univers {
+        display: block;
+      }
+      
+    
+      
+      /* Mettez en surbrillance le bouton au clic et gardez le menu déroulant affiché */
+      .dropdown.active button {
+        background-color: white;
+        color: #333;
+      }
+    
+    
+      /* Affichez le menu déroulant lorsque le bouton est actif */
+    .dropdown.active .dropdown-content-nav-univers {
+        display: block;
+      }
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    .row {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .col {
+        width: 250px;
+        flex: 1;
+        padding: 20px;
+         flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    
+    }
+    
+    .col h4{
+    
+    text-align: center;    
+    }
+    
+    
+    
+    
+    
+    /* Style du bouton (vous pouvez conserver le style CSS du bouton si vous le souhaitez) */
+    .dropdown button.toggle-button-nav-univers {
+        background-color: white;
+        color: #333;
+        border: 1px solid grey;
+        padding: 3px;
+        cursor: pointer;
+      }
+    
+      
+      /* Affichez le menu déroulant lorsque la classe "active" est présente */
+      .dropdown-content-nav-univers.active {
+        display: block;
+      }
+      
+    
+/*-------------------FIN MENU DEROULANT -------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BARRE DE RECHERCHE --------------------------*/
+
+
+
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#searchInput:focus {
+    border: 1px solid blue; /* Ajoute une bordure bleue lorsque le champ est en focus */
+    outline: none; /* Supprime la bordure par défaut du navigateur */
+}
+
+
+#resultsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+
+
+    display: none;
+    position: absolute;
+    left: 961px;
+    z-index: 999;
+    /* Pour que la liste s'affiche au-dessus du contenu */
+    width: 100%;
+    background-color: #fff;
+    margin-top: -5px;
+    /* Pour placer la liste juste en dessous de l'input */
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 0.1);
+
+    width: 345px;
+}
+
+#resultsList li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    
+
+  
+
+}
+
+#resultsList li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+#resultsList.active {
+    display: block;
+    /* Afficher la liste lorsqu'elle est active */
+}
+
+#resultsList a {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+
+}
+
+#resultsList .content {
+
+    margin: 10px;
+
+}
+
+#resultsList a:hover {
+
+    color: blue;
+
+
+}
+
+
+
+#resultsList li {
+
+}
+
+#resultsList li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+#resultsList li img {
+    width: 50px;
+    /* Ajustez la taille de l'image selon vos besoins */
+    height: auto;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* Marge entre l'image et le titre */
+}
+
+#resultsList li h3 {
+    flex: 1;
+    /* Permet au titre de prendre tout l'espace disponible */
+    margin: 0;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------*/
+
+
+
+/* CARRE DROITE CODE PROMO */
+
+
+
+
+.carre-droite-code-promo {
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 8px 0 #dfdfdf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+
+.carre-droite-code-promo img {
+
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/*CATEGORIE TOP PAGE----------*/
+
+.categorie-top {
+
+    /* background: rgb(224, 224, 224); */
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.display-categorie-top {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+/* CATEGORIE DE CONSOLE */
+
+.plateforme {
+
+    display: flex;
+    justify-content: center;
+/* background-color: #ededed;; */
+padding: 15px;
+
+}
+
+
+ .plateforme a {
+
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #10004e;
+    margin-right: 15px;
+    text-decoration: none;
+    /* width: 150px; */
+    width: auto;
+    height: 36px;
+    /* background: rgb(0, 219, 255);
+    background: linear-gradient(153deg, rgba(0, 219, 255, 1) 0%, rgba(255, 0, 245, 1) 100%);*/
+    background-color: rgb(65, 65, 65);
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+/* Style pour le bouton actif dans la div "plateforme" */
+.plateforme .filter-btn.active {
+    border: 2px solid #0073FA; /* Ajoute un contour autour du bouton actif */
+
+}
+
+/* Style pour les boutons inactifs (non sélectionnés) dans la div "plateforme" */
+.plateforme .filter-btn:not(.active) {
+    opacity: 0.8; /* Réduit légèrement l'opacité des boutons inactifs */
+}
+
+
+
+.first-item-cat{
+
+/* margin-left: 160px; */
+
+}
+
+
+
+
+/* DEBUT SLIDER --------------------------*/
+
+.slider-container {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-track {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-item {
+    width: calc(100% / 4); /* Diviser l'espace en 4 parties égales */
+    flex-shrink: 0;
+    /* padding: 20px; */
+    padding: 18px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    text-decoration: none;
+  
+
+
+}
+
+
+.icon-plateforme{
+
+height: 20px;
+margin-right: 10px;
+
+
+}
+  
+
+.slider-item-none{
+    width: calc(100% / 4); /* Diviser l'espace en 4 parties égales */
+    flex-shrink: 0;
+    /* padding: 20px; */
+    padding: 18px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    text-decoration: none;
+    display: none;
+
+
+}
+
+
+.plateforme .none {
+
+display: none;
+
+}
+
+
+
+
+  
+  .slider-prev, .slider-next {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-prev {
+    left: 0;
+  margin-right: 50px;
+  background-color: white;
+  height: 100px;
+  }
+  
+  .slider-next {
+    right: 0;
+margin-left: 50px;  
+background-color: white;
+height: 100px;
+}
+
+.fleche-mobile{
+
+/* display: none; */
+}
+  
+
+/*FIN SLIDER-------------------------------------*/
+
+/*SLIDER JEUX----------*/
+
+
+.jeux-slider {
+
+    display: flex;
+    justify-content: center;
+/* background-color: #ededed;; */
+padding: 15px;
+
+}
+
+
+ .jeux-slider a {
+
+
+    background-color: white;
+    /* border: none; */
+    border: 0.1px solid #0011382e;
+    cursor: pointer;
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #10004e;
+    margin-right: 15px;
+    text-decoration: none;
+    /* width: 150px; */
+    width: auto;
+    height: 36px;
+    /* background-color: rgb(65, 65, 65); */
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+.jeux-slider a:hover{
+
+    border:1px solid rgb(0, 68, 255);
+transition: 0.4s;
+}
+
+
+
+.slider-container-jeux {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-track-jeux {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider-item-jeux {
+    width: calc(100% / 4); /* Diviser l'espace en 4 parties égales */
+    flex-shrink: 0;
+    /* padding: 20px; */
+    padding: 18px 20px; /*A voir si on reduit un peut pour faire une nav plus petite*/
+    border: 1px solid #ccc;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  
+
+  
+  .slider-prev-jeux, .slider-next-jeux {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-prev-jeux {
+    left: 0;
+  margin-right: 50px;
+  background-color: white;
+  height: 100px;
+  }
+  
+  .slider-next-jeux {
+    right: 0;
+margin-left: 50px;  
+background-color: white;
+height: 100px;
+}
+
+
+
+
+/*---------FIN SLIDER JEUX------------*/
+
+.sect-principal{
+
+    padding: 15px 0;
+    
+    }
+    
+
+
+/*FILTRE TOP PAGE -----------------------------------*/
+
+
+
+.filter-btn {
+
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #10004e;
+
+
+
+    margin-right: 34px;
+    text-decoration: none;
+
+    height: 40px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.filters {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.content {
+
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+/* Style pour le bouton actif dans la div "filters" */
+.filters .filter-btn.active {
+    border-bottom: 2px solid #0073FA; /* Ajoute un trait en dessous du bouton actif */
+}
+
+
+
+
+/* Style pour la classe "disabled" qui grise la div filters */
+.disabled {
+    opacity: 0.5; /* Réduit l'opacité pour griser la div */
+    pointer-events: none; /* Empêche les interactions avec les éléments à l'intérieur */
+  }
+  
+
+
+
+  .expired {
+    opacity: 0.5; /* Réduire l'opacité à 0.5 pour griser */
+   /*  pointer-events: none; Désactiver les événements de la souris */
+    /* Ajoutez d'autres styles pour griser la div ici */
+}
+
+
+
+
+
+  
+
+
+/*------------------PAGINATION --------------*/
+
+.content {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+  .pagination {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center;
+        }
+
+        .pagination button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+
+        .pagination button:hover {
+            background-color: #2980b9;
+        }
+
+        #currentPage {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+
+        .petit-point{
+
+color: white;
+width: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+        }
+
+
+
+/*-----BOUTON VOIR PLUS ------------------------*/
+.categories {
+    margin-bottom: 10px;
+}
+
+/*   
+  .category {
+    display: block;
+  }
+   */
+.hidden {
+    display: none;
+}
+
+
+.bouton-voir-plus {
+
+    margin-bottom: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #10004e;
+    opacity: 0.5;
+
+    margin-top: 15px;
+
+}
+
+.bouton-voir-plus:hover {
+    opacity: 1;
+
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+
+/*-------------------------------------*/
+
+main {
+
+    background-color:
+        #e9eaed;
+
+}
+
+/*LES FILTRES QUI SONT DANS LE MENU DEROULANT ROUGE QUI N'EST PAS AFFICHER ACUTELLEMENT------------------------------*/
+
+
+
+/* 
+.filters {
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.content {
+
+
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+    
+    
+.filter-btn{
+
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #10004e;
+    
+    }
+    
+    .filters h4{
+    
+    margin-top: 15px;
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #10004e;
+    margin-bottom: 10px;
+    }
+    
+    #filterSelect{
+height: 30px;
+padding: 0 10px;
+background-color: red;
+        border-radius: 15px;
+        border: none;
+float: right;
+     
+    }
+     */
+
+
+/* Style pour le bouton de filtre actif */
+/*   .filter-btn.active {
+        color: rgb(241, 241, 241);
+         font-weight: 600;  
+     font-size: 20px;
+        }
+      
+*/
+
+/*------------ FIN FILTRE--------------- */
+
+.modif-a {
+    text-decoration: none;
+
+}
+
+
+.carre {
+
+
+    /* width: 185px; */
+    width: 830px;
+    height: 220px;
+    /* background-color: #3c008021; */
+    background-color: white;
+    /* border: 2px solid #3C0080; */
+    border-radius: 10px;
+    padding: 16px;
+    /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.22); */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carre a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.carre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+
+
+.image-bon-plan {
+    height: 200px;
+    width: 180px;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-right: 16px;
+}
+
+.img-carre {
+
+    height: 200px;
+    object-fit: cover;
+    width: 180px;
+    border-radius: 15px;
+padding: 10px;
+}
+
+.img-carre-contain {
+
+    height: 200px;
+    object-fit: contain;
+    width: 180px;
+    border-radius: 15px;
+padding: 10px;
+}
+
+.p-carre {
+
+    color: rgb(16, 0, 19);
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: start;
+
+}
+
+.carre:hover {
+
+    background-color: #0059ff1a;
+
+}
+
+.titre-bon-plan {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.temps-duree-fin {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 0 8px 0;
+}
+
+.date-upload {
+
+    margin-left: 30px;
+    color: rgb(112, 112, 112);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+.date-end {
+    margin-left: 30px;
+    color: rgb(112, 112, 112);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.lieu-disponible {
+
+    margin-left: 30px;
+    color: rgb(112, 112, 112);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.temps-duree-fin i {
+
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.prix-promo-provenance {
+
+    display: flex;
+    justify-content: flex-start;
+    padding: 6px 0;
+
+
+}
+
+.prix-final {
+
+    color: red;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+.prix-barre {
+
+    text-decoration: line-through;
+    color: grey;
+
+    font-family: "Sans code 3", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+
+.bouton-deal {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+
+}
+
+.bouton-bon-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(0, 89, 255);
+
+    color: white;
+    text-decoration: none;
+}
+
+.bouton-bon-plan:hover{
+
+transform: scale(1.01);
+    background-color: rgb(20, 102, 255);
+
+
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1350px) {
+
+.categorie-top{
+margin-left: 66px
+
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+
+        width: 1000px;
+        padding: 10px;
+    }
+
+
+    /*A CHAQUE FOIS QUE JE MODIFIE LA LARGEUR DU SLIDER IL FAUT MODIFIER LE MARGIN DE #MARGE POUR QUE LE BOUTON TOUT SE DECALE ET SOIS VISIBLE*/
+    .slider-container {
+        width: 1000px;
+
+    }
+
+    #marge {
+
+
+        margin-left: 200px;
+
+    }
+
+    .fleche-mobile {
+
+        display: block;
+
+    }
+
+    .contents {
+
+        float: none;
+
+    }
+
+
+
+    .display-corp-avis {
+
+        flex-direction: column;
+
+    }
+
+    .column-gauche {
+
+        width: 1000px;
+
+    }
+
+    .column-droite {
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .carre {
+
+        width: 100%;
+
+    }
+
+    .carre-droite {
+
+        width: 1000px;
+
+    }
+
+    .carre-droite-compa {
+
+        width: 1000px;
+    }
+
+    .carre-droite-compa a {
+
+        justify-content: center;
+
+    }
+
+    .carre-droite-compa img {
+
+        margin-right: 65px;
+
+    }
+
+
+
+
+
+
+}
